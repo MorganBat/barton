@@ -12,12 +12,18 @@
         <!-- <span class="logo">
             <img src="logo.png" />
         </span> -->
-        <div class="header-image">
-            <div class="header-text">
-                <h1>Barton Commercial Group</h1>
-            </div>
+        <div class="header-text">
+            <h1>Barton Commercial Group</h1>
+        </div>
+        <div class="header-slideshow">
+            <img class="header-image" src="header1.jpg" height="240px">
+            <img class="header-image" src="header2.jpg" height="240px">
+            <img class="header-image" src="header3.jpg" height="240px">
+            <img class="header-image" src="header4.jpg" height="240px">
         </div>
     </header>
+
+    
     
     <div class="body-copy-container">
         <span class="body-copy-left">
@@ -64,7 +70,7 @@
             </p>
         </span>
         <span class="bottom-image-right">
-            <img src="bottom.jpg" width="500px"/>
+            <img src="bottom.png" width="500px"/>
         </span>
     </div>
 
@@ -75,6 +81,23 @@
             <a href="tel:01707 707 334">tel: 01707 707 334</a><br />
             <a href="mailto:info@bartoncommercial.co.uk">Email: info@bartoncommercial.co.uk</a>
         </footer>
+
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("header-image");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {slideIndex = 1}
+        x[slideIndex-1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+    </script>
 
 </body>
 </html>
