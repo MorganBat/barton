@@ -52,18 +52,29 @@ h1 {
 }
 
 .body-copy-container {
-    /* font-family: ; */
-    display: flex;
-    /* width: 50%; */
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 500px 500px;
 }
 
 .body-copy-left {
-    margin: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
 }
 
 .body-copy-right {
 
+}
+
+.bottom {
+    display: flex;
+}
+
+.bottom-text-left {
+
+}
+
+.bottom-image-right {
+    width: 500px;
 }
  
 ul {
