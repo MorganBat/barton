@@ -778,7 +778,7 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 .product-listing-section .rightside .silverbullet-btn{width:100%;font-family:montserratbold;letter-spacing:1px;}
 
 .body-copy-container{
-    max-width: 70%;
+    width: 80%;
     margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -794,11 +794,11 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 }
 
 .body-copy-left{
-    max-width: 40%;
+    width: 80%;
 }
 
 .body-copy-right{
-    max-width: 40%;
+    width: 80%;
     margin-left: 67px;
 } 
 
@@ -808,8 +808,12 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 }
 
 .body-copy-left img{
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.body-copy-right ul{
+    margin-top: 35px;
 }
 
 @media only screen and (max-width:1440px) {
