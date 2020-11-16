@@ -795,12 +795,12 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
     margin-left: 67px;
 } 
 
-.body-copy-left img{
+.body-copy-right img{
     width: 100%;
     height: auto;
 }
 
-.body-copy-right ul{
+.body-copy-left ul{
     margin-top: 35px;
     margin-left: 18px;
 }
