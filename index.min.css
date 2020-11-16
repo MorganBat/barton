@@ -6,7 +6,7 @@ a,body,button,hr{padding:0}
 *,.keyfact-list-group li,.line,h2.title-heading:after{box-sizing:border-box}
 abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}
 ins,mark{background-color:#ff9;color:#000}
-body{background-color:#f1f1f1;font-family:montserratregular}
+body{background-color:#f1f1f1;font-family: 'Roboto', sans-serif; font-size: 18px;}
 .price-strip h2.price,button.btn.more-info.sky-blue-btn{font-family:montserratregular}
 nav ul{list-style:none}
 blockquote,q{quotes:none}
@@ -776,7 +776,47 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 #productList-1 .silverbullet-btn{width:180px;float:right;padding:10px;margin-top:1.4rem;margin-right:10px;}
 #productList-2 .silverbullet-btn{width:100%;}
 .product-listing-section .rightside .silverbullet-btn{width:100%;font-family:montserratbold;letter-spacing:1px;}
-.copy-list{list-style-type: none; padding-left: 0;}
+/* .copy-list{list-style-type: none; padding-left: 0;} */
+/* .body-copy-container {
+    display: grid;
+    max-width: 67%;
+    margin: auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.body-copy-top-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.body-copy-top-right {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.body-copy-bottom-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+} */
+
+.body-copy-container{
+    max-width: 67%;
+    margin-left: 20%;
+    margin-right: 40%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.body-copy-container li{
+    margin-left: 10px;
+}
 
 @media only screen and (max-width:1440px) {
 .collom{width:45%}
