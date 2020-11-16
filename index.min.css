@@ -776,12 +776,10 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 #productList-1 .silverbullet-btn{width:180px;float:right;padding:10px;margin-top:1.4rem;margin-right:10px;}
 #productList-2 .silverbullet-btn{width:100%;}
 .product-listing-section .rightside .silverbullet-btn{width:100%;font-family:montserratbold;letter-spacing:1px;}
-/* .copy-list{list-style-type: none; padding-left: 0;} */
 
 .body-copy-container{
     max-width: 70%;
-    margin-left: 10%;
-    margin-right: 20%;
+    margin: auto;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
@@ -792,15 +790,16 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 .body-copy-top{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
-.body-copy-top-left{
+.body-copy-left{
     max-width: 40%;
 }
 
-.body-copy-top-right{
-    max-width: 30%;
-    margin-left: 100px;
+.body-copy-right{
+    max-width: 40%;
+    margin-left: 67px;
 } 
 
 .body-copy-bottom{
@@ -808,18 +807,9 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
     flex-direction: row;
 }
 
-.body-copy-bottom-left{
-    max-width: 40%;
-}
-
-.body-copy-bottom-left img{
+.body-copy-left img{
     max-width: 100%;
     max-height: 100%;
-}
-
-.body-copy-bottom-right{
-    max-width: 30%;
-    margin-left: 100px;
 }
 
 @media only screen and (max-width:1440px) {
