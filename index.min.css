@@ -793,18 +793,18 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 
 .body-copy-right{
     width: 40%;
-    margin-left: 67px;
+    margin-left: 167px;
 } 
 
-.body-copy-right img{
-    width: 100%;
-    height: auto;
+.body-copy-left img{
+    width: auto;
+    height: 250px;
 }
 
-/* .body-copy-left ul{
-    margin-top: 35px;
-    margin-left: 18px;
-} */
+.body-copy-right img{
+    width: auto;
+    height: 200px;
+}
 
 .body-copy-list-container{
     width: 100%;
@@ -830,10 +830,6 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
     flex-wrap: nowrap;
     width: 100%;
 }
-
-/* .leasing-copy-container h3{
-    color: #e1e1e1;
-} */
 
 @media only screen and (max-width:1440px) {
 .collom{width:45%}
