@@ -21,12 +21,6 @@ body {
     align-self: center;
 }
 
-.header-text {
-    /* text-align: center; */
-    align-self: center;
-    text-align: center;
-}
-
 .header-contact {
     text-align: end;
     align-self: center;
