@@ -19,11 +19,6 @@ del{text-decoration:line-through}
 abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
 table{border-collapse:collapse;border-spacing:0}
 hr{height:1px;border:0;border-top:1px solid #ccc;margin:1em 0}
-@font-face{font-family:'montserratbold';font-display:swap;src:url(../fonts/montserrat-bold-webfont.woff2) format("woff2"),url(../fonts/montserrat-bold-webfont.woff) format("woff");font-weight:400;font-style:normal}
-@font-face{font-family:'montserratextrabold';font-display:swap;src:url(../fonts/montserrat-extrabold-webfont.woff2) format("woff2"),url(../fonts/montserrat-extrabold-webfont.woff) format("woff");font-weight:400;font-style:normal}
-@font-face{font-family:'montserratlight';font-display:swap;src:url(../fonts/montserrat-light-webfont.woff2) format("woff2"),url(../fonts/montserrat-light-webfont.woff) format("woff");font-weight:400;font-style:normal}
-@font-face{font-family:'montserratregular';font-display:swap;src:url(../fonts/montserrat-regular-webfont.woff2) format("woff2"),url(../fonts/montserrat-regular-webfont.woff) format("woff");font-weight:400;font-style:normal}
-@font-face{font-family:'montserratsemibold';font-display:swap;src:url(../fonts/montserrat-semibold-webfont.woff2) format("woff2"),url(../fonts/montserrat-semibold-webfont.woff) format("woff");font-weight:400;font-style:normal}
 .top-navigation ul li ul.sub-menu li{display:block;width:100%;padding:0!important;margin:0!important;border:none!important}
 .overlay.overlay-dots:after{content:"";background:rgba(255,255,255,.5);top:0;bottom:0;left:0;right:0;position:absolute;width:100%;background-repeat:repeat}
 .innerWhiteBox{padding:0;background-color:#fff;box-shadow:none;width:100%;position:relative;z-index:9}
