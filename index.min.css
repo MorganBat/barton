@@ -806,6 +806,10 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
     height: 200px;
 }
 
+.body-copy-right li{
+    margin: 10px 0;
+}
+
 .body-copy-list-container{
     width: 100%;
     background-color: darkgray;
