@@ -41,7 +41,7 @@ hr{height:1px;border:0;border-top:1px solid #ccc;margin:1em 0}
 .webbs-pro-detail-box{padding:0;background-color:#fff}
 .sactionCat ul{padding-top:100px}
 .CatImage img{width:100%;max-width:142px}
-.viewBox h1,h2,h3{padding-bottom:20px;text-align:left;color:#191923;font-size:32px;font-weight:900;font-family:montserratextrabold;line-height:140%}
+.viewBox h1,h2,h3{padding-bottom:20px;color:#191923;font-size:32px;font-weight:900;font-family:montserratextrabold;line-height:140%}
 .finance_sp ul li:first-child{border-left:0}
 .finance_specialists h4{margin:10px 0 15px;color:#f93b27;font-family:montserratregular;font-size:14px;letter-spacing:1px;line-height:26px;text-align:center;font-weight:400}
 .arrows .left,.arrows .right{width:50px;line-height:50px;color:#fff;background-color:#f93b27;text-align:center;height:50px;text-decoration:none}
@@ -778,6 +778,13 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 #productList-2 .silverbullet-btn{width:100%;}
 .product-listing-section .rightside .silverbullet-btn{width:100%;font-family:montserratbold;letter-spacing:1px;}
 
+.body-title{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 40px;
+}
+
 .body-copy-container{
     width: 80%;
     margin: auto;
@@ -790,6 +797,7 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 
 .body-copy-left{
     width: 40%;
+    max-height: 250px;
 }
 
 .body-copy-right{
@@ -799,7 +807,10 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 
 .body-copy-left img{
     width: auto;
-    height: 250px;
+    height: auto;
+    max-height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .body-copy-right img{
@@ -808,7 +819,7 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 }
 
 .body-copy-right li{
-    margin: 10px 0;
+    margin: 14px 0;
 }
 
 .body-copy-list-container{
@@ -820,8 +831,6 @@ a.linkdisabled{color:#ccc!important;pointer-events:none}
 .body-copy-list{
     width: 80%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
